@@ -749,6 +749,12 @@
 
         /* 移动端适配 */
         @media (max-width: 768px) {
+            body {
+                overflow: auto;
+                height: 100dvh;
+                touch-action: auto;
+            }
+
             .slide {
                 padding: 30px 20px;
                 justify-content: flex-start;
